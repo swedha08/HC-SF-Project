@@ -1,0 +1,32 @@
+[0m15:43:56.080590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C09EE090D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A24F5DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A252CC90>]}
+
+
+============================== 15:43:56.357942 | 0095f5f3-c168-4f79-9d25-17669f31d888 ==============================
+[0m15:43:56.357942 [info ] [MainThread]: Running with dbt=1.11.12
+[0m15:43:56.370312 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\pc\\.dbt', 'invocation_command': 'dbt init healthcare_dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:43:58.947430 [debug] [MainThread]: Starter project path: C:\Users\pc\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m15:44:05.059845 [info ] [MainThread]: 
+Your new dbt project "healthcare_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:44:05.093980 [info ] [MainThread]: Setting up your profile.
+[0m15:44:52.236058 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m15:44:52.236058 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m15:44:52.242583 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m15:47:55.917974 [info ] [MainThread]: Profile healthcare_dbt written to C:\Users\pc\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:47:55.926931 [debug] [MainThread]: Command `dbt init` succeeded at 15:47:55.926931 after 242.41 seconds
+[0m15:47:55.929291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C09BBFD610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0A255A150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C09B91A490>]}
+[0m15:47:55.930475 [debug] [MainThread]: Flushing usage events
+[0m15:47:58.473709 [debug] [MainThread]: An error was encountered while trying to flush usage events
