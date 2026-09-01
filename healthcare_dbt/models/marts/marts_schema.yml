@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_patient_encounters
+    description: "One row per patient encounter, with patient demographics joined in. Core fact table for reporting."
+    columns:
+      - name: encounter_id
+        description: "Unique identifier for a clinical encounter."
+      - name: patient_id
+        description: "Foreign key to the patient."
+
+  - name: agg_revenue_by_department
+    description: "Revenue summary by hospital department, including collected vs outstanding amounts."
+
+  - name: agg_physician_workload
+    description: "Encounter volume and billing per attending physician."
